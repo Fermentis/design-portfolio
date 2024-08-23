@@ -1,113 +1,134 @@
+'use client';
+
 import Image from "next/image";
+import TopNavigation from "@/app/ui/topnav";
+import Button from "@/app/ui/button";
+import { merriweather } from '@/app/ui/fonts';
+//import Projects from "./ui/projects";
+import Link from 'next/link';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:size-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <div>
+      <TopNavigation />
+      <main className="flex flex-col items-center">
+        <div className="flex flex-col w-full justify-between pt-16 pb-16 pl-8 pr-8 md:p-48 text-center bg-sky-400 text-white text-xl space-y-2">
+          <p>Hi, I'm</p>
+          <p className={`${merriweather.className} text-5xl drop-shadow`}>Jeff Border</p>
+          <p>I work at the intersection of business, design, and tech</p>
+          <p>I'm a Product Designer and Strategist with over 10 years of design and development experience. My focus is UX/UI product design for mobile and web applications.</p>
         </div>
-      </div>
-
-      <div className="relative z-[-1] flex place-items-center before:absolute before:h-[300px] before:w-full before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 sm:before:w-[480px] sm:after:w-[240px] before:lg:h-[360px]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-balance text-sm opacity-50">
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+        <div className="flex flex-col justify-center items-center space-y-12 p-4 md:p-24 w-full lg:w-4/5">
+          <div className="flex flex-col w-full md:grid md:grid-cols-2 items-center gap-12 lg:gap-0">
+            <Image
+              src="/project_fidyouth.png"
+              width={275}
+              height={350}
+              className="m-auto md:ml-auto"
+              alt="Screenshots of the dashboard project showing desktop version"
+            />
+            <div className="flex flex-col w-full">
+              <h3 className="text-3xl font-bold">Fidelity Youth™ app</h3>
+              <p className="text-gray-600">An app to help teens learn about, manage, and invest their own money.</p>
+              <div className="flex">
+                <Link
+                  href="/projects/fidelityyouth"
+                  className="items-center rounded-lg bg-sky-400 p-3 mt-5 mb-5 text-sm font-medium text-white transition-colors hover:bg-sky-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500 active:bg-sky-600 aria-disabled:cursor-not-allowed aria-disabled:opacity-50">
+                  View project
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col w-full md:grid md:grid-cols-2 items-center gap-12 lg:gap-0">
+            <Image
+              src="/project_fff.png"
+              width={275}
+              height={400}
+              className="m-auto md:ml-auto"
+              alt="Screenshots of the dashboard project showing desktop version"
+            />
+            <div className="flex flex-col w-full">
+            <h3 className="text-3xl font-bold">Fresh Food Farmacy</h3>
+              <p className="text-gray-600">An app that helps patients manage food insecurity and diabetes, and a web app to manage patients and pantry.</p>
+              <div className="flex">
+                <Link
+                  href="/projects/freshfoodfarmacy"
+                  className="'flex items-center rounded-lg bg-sky-400 p-3 mt-5 mb-5 text-sm font-medium text-white transition-colors hover:bg-sky-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500 active:bg-sky-600 aria-disabled:cursor-not-allowed aria-disabled:opacity-50'">
+                  View project
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col w-full md:grid md:grid-cols-2 items-center gap-12 lg:gap-0">
+            <Image
+              src="/project_cdm.png"
+              width={275}
+              height={166}
+              className="m-auto md:ml-auto"
+              alt="Screenshots of the dashboard project showing desktop version"
+            />
+            <div className="flex flex-col w-full">
+            <h3 className="text-3xl font-bold">Chronic Disease Management Center</h3>
+            <p className="text-gray-600">An expansion of previous apps that allows for managing multiple chronic diseases in the outpatient setting.</p>
+              <div className="flex">
+                <Link
+                  href="/projects/cdm"
+                  className="'flex items-center rounded-lg bg-sky-400 p-3 mt-5 mb-5 text-sm font-medium text-white transition-colors hover:bg-sky-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500 active:bg-sky-600 aria-disabled:cursor-not-allowed aria-disabled:opacity-50'">
+                  View project
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col w-full md:grid md:grid-cols-2 items-center gap-12 lg:gap-0">
+            <Image
+              src="/project_edge.png"
+              width={275}
+              height={124}
+              className="m-auto md:ml-auto"
+              alt="Screenshots of the dashboard project showing desktop version"
+            />
+            <div className="flex flex-col w-full">
+            <h3 className="text-3xl font-bold">Asthma Management Suite</h3>
+            <p className="text-gray-600">An ecosystem of applications to manage asthma.</p>
+              <div className="flex">
+                <Link
+                  href="/projects/edge"
+                  className="'flex items-center rounded-lg bg-sky-400 p-3 mt-5 mb-5 text-sm font-medium text-white transition-colors hover:bg-sky-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500 active:bg-sky-600 aria-disabled:cursor-not-allowed aria-disabled:opacity-50'">
+                  View project
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col w-full md:grid md:grid-cols-2 items-center gap-12 lg:gap-0">
+            <Image
+              src="/project_concepts.png"
+              width={275}
+              height={190}
+              className="m-auto md:ml-auto"
+              alt="Screenshots of the dashboard project showing desktop version"
+            />
+            <div className="flex flex-col w-full">
+            <h3 className="text-3xl font-bold">Concept Work</h3>
+            <p className="text-gray-600">A few concept pieces I've worked on to help round out my skillset.</p>
+              <div className="flex">
+                <Link
+                  href="/projects/concepts"
+                  className="'flex items-center rounded-lg bg-sky-400 p-3 mt-5 mb-5 text-sm font-medium text-white transition-colors hover:bg-sky-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500 active:bg-sky-600 aria-disabled:cursor-not-allowed aria-disabled:opacity-50'">
+                  View project
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col w-full">
+          <h3 className="text-3xl font-bold">About</h3>
+          <p className="text-gray-600">In addition to being a designer, I'm a husband and dad of two daughters, love to cook, home brew, smoked bbq enthusiast, cyclist, and technologist. I am a curious person and like to learn why things work and why people do the things they do. I also enjoy gaming including VR on the Quest and have a background as a front-end developer and instructional designer and technologist.</p>
+          </div>
+          <div className="flex flex-col w-full">
+          <h3 className="text-3xl font-bold">Get in touch!</h3>
+            <a className="text-sky-400 underline" href="mailto:jeffrey.border@gmail.com">jeffrey.border@gmail.com</a>
+          </div>
+        </div>
+      </main>
+    </div>
   );
 }
