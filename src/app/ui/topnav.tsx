@@ -13,7 +13,7 @@ export default function TopNavigation() {
     };
 
     return (
-        <header className="bg-neutral-0 text-black px-4 py-2 flex justify-between items-center pl-4 pr-4 md:pl-32 md:pr-32 mb-16">
+        <header className="bg-neutral-0 text-black px-4 py-2 flex justify-between items-center pl-4 pr-4 md:pl-32 md:pr-32">
             <div className="flex items-center">
                 <h1 className={`${merriweather.className} text-xl font-bold`}>Jeff Border</h1>
             </div>
