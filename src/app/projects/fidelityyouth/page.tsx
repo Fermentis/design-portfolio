@@ -17,21 +17,21 @@ export default function Page() {
             width={230}
             height={498}
             className="md:block rounded-xl"
-            alt="Screenshots of the dashboard project showing desktop version"
+            alt="Fidelity Youth screenshot 1"
           />
           <Image
             src="/fidyouthhero2.png"
             width={230}
             height={498}
             className="hidden md:block rounded-xl"
-            alt="Screenshots of the dashboard project showing desktop version"
+            alt="Fidelity Youth screenshot 2"
           />
           <Image
             src="/fidyouthhero3.png"
             width={230}
             height={498}
             className="hidden md:block rounded-xl"
-            alt="Screenshots of the dashboard project showing desktop version"
+            alt="Fidelity Youth screenshot 3"
           />
         </div>
         <div className="flex flex-col col-span-full p-4 md:p-24 space-y-12 items-center">

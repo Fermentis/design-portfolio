@@ -39,7 +39,7 @@ export default function Page() {
                             <section className="space-y-2">
                                 <h5 className="text-2xl text-gray-800"><span className="font-bold">UX Designer</span> • Vesta Healthcare • New York, NY (Remote)</h5>
                                 <p className="text-gray-500">Remote monitoring healthcare startup connecting patients, caregivers, and family</p>
-                                <p>June 2022 - Apr 2024</p>
+                                <p>Nov 2021 - Mar 2022</p>
                                 <ul className="list-disc ml-8 space-y-2">
                                     <li>Created design system in Figma using Material Design as a base for ease of use and fast adoption</li>
                                     <li>Updated designs to incorporate current branding, updated visuals, and design patterns</li>
@@ -49,7 +49,7 @@ export default function Page() {
                             <section className="space-y-2">
                                 <h5 className="text-2xl text-gray-800"><span className="font-bold">Senior UX/UI Designer</span> • Geisinger Health System • Danville, PA (Hybrid)</h5>
                                 <p className="text-gray-500">Regional hospital system known for innovation and forward thinking approach to healthcare</p>
-                                <p>June 2022 - Apr 2024</p>
+                                <p>May 2018 - Nov 2021</p>
                                 <ul className="list-disc ml-8 space-y-2">
                                     <li>As a team of one, lead design on the product innovation team and responsible for guiding the team through all phases of the design process</li>
                                     <li>Introduced and began implementing design process and design thinking with the team, working towards scaling and operationalizing design throughout the organization</li>
@@ -65,7 +65,7 @@ export default function Page() {
                             <section className="space-y-2">
                                 <h5 className="text-2xl text-gray-800"><span className="font-bold">Front End Software Engineer</span> • Geisinger Health System • Danville, PA</h5>
                                 <p className="text-gray-500">Regional hospital system known for innovation and forward thinking approach to healthcare</p>
-                                <p>June 2022 - Apr 2024</p>
+                                <p>Jun 2011 - May 2018</p>
                                 <ul className="list-disc ml-8 space-y-2">
                                     <li>Originated idea for and wrote proposal that resulted in over a million-dollar collaboration with AstraZeneca to create a healthcare social network and integrated electronic health record application that brings doctors and patients together to transform patient care</li>
                                     <li>Designed and developed several multi-million dollar joint projects with Merck to create patient and provider collaboration applications that facilitate patients’ heart disease and diabetes care and education</li>
@@ -82,7 +82,7 @@ export default function Page() {
                             <section className="space-y-2">
                                 <h5 className="text-2xl text-gray-800"><span className="font-bold">Instructional Technologist</span> • Guardian Life Insurance • Bethlehem, PA</h5>
                                 <p className="text-gray-500">Financial & retirement planning, investments, and wealth management</p>
-                                <p>June 2022 - Apr 2024</p>
+                                <p>Oct 2007 - May 2011</p>
                                 <ul className="list-disc ml-8 space-y-2">
                                     <li>Supported internal clients and external vendors to create, update, and troubleshoot courses while providing end-user support as a Learning Management System (LMS) administrator</li>
                                     <li>Advised management on future direction and planning of company eLearning and kept them informed of new technologies  including SCORM, development tools, and programming languages</li>

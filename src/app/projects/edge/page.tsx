@@ -17,7 +17,7 @@ export default function Page() {
             width={1730}
             height={620}
             className="rounded-xl"
-            alt="Screenshots of the dashboard project showing desktop version"
+            alt="Asthma Management Suite screenshot"
           />
         </div>
         <div className="flex flex-col col-span-full p-4 md:p-24 space-y-12 items-center">

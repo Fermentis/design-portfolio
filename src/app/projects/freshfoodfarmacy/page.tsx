@@ -17,21 +17,21 @@ export default function Page() {
             width={412}
             height={525}
             className="md:block rounded-xl"
-            alt="Screenshots of the dashboard project showing desktop version"
+            alt="Fresh Food Farmacy screenshot 1"
           />
           <Image
             src="/fffmealplan.png"
             width={412}
             height={525}
             className="hidden md:block rounded-xl"
-            alt="Screenshots of the dashboard project showing desktop version"
+            alt="Fresh Food Farmacy screenshot 2"
           />
           <Image
             src="/fffjournal.png"
             width={412}
             height={525}
             className="hidden md:block rounded-xl"
-            alt="Screenshots of the dashboard project showing desktop version"
+            alt="Fresh Food Farmacy screenshot 3"
           />
         </div>
         <div className="flex flex-col col-span-full p-4 md:p-24 space-y-12 items-center">

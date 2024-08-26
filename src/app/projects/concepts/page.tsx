@@ -18,7 +18,7 @@ export default function Page() {
               width={1440}
               height={4918}
               className="w-full rounded-xl"
-              alt="Screenshots of the dashboard project showing desktop version"
+              alt="Yewwniverse screenshot"
             />
           </div>
           <div className="flex flex-col items-center gap-y-8">
@@ -30,14 +30,14 @@ export default function Page() {
                 width={375}
                 height={620}
                 className="rounded-xl"
-                alt="Screenshots of the dashboard project showing desktop version"
+                alt="MovieSync screenshot 1"
               />
               <Image
                 src="/addsubscriptions.png"
                 width={375}
                 height={620}
                 className="rounded-xl"
-                alt="Screenshots of the dashboard project showing desktop version"
+                alt="MovieSync screenshot 2"
               />
             </div>
             <div className="flex flex-row flex-wrap justify-around gap-8">
@@ -46,14 +46,14 @@ export default function Page() {
                 width={375}
                 height={620}
                 className="rounded-xl"
-                alt="Screenshots of the dashboard project showing desktop version"
+                alt="MovieSync screenshot 3"
               />
               <Image
                 src="/matchedfriends.png"
                 width={375}
                 height={620}
                 className="rounded-xl"
-                alt="Screenshots of the dashboard project showing desktop version"
+                alt="MovieSync screenshot 4"
               />
             </div>
             <div className="flex flex-row">
@@ -62,19 +62,19 @@ export default function Page() {
                 width={375}
                 height={620}
                 className="rounded-xl"
-                alt="Screenshots of the dashboard project showing desktop version"
+                alt="MovieSync screenshot 5"
               />
             </div>
           </div>
           <div className="flex flex-col items-center gap-y-8">
-            <h1 className="text-3xl font-bold">Alpen Fondo</h1>
-            <p className="text-xl text-gray-700">The Alpen Fondo is a concept race signup and landing page created for a fictional Alps mountain cycling race.</p>
+            <h1 className="text-3xl font-bold">Dracarys Bicycles</h1>
+            <p className="text-xl text-gray-700">Dracarys Bicycles is a concept children's bike landing page created for a fictional bike company using content from Game of Thrones. The challenge was to use hand drawn pieces within the site.</p>
             <Image
               src="/dracarys.png"
               width={1400}
               height={3320}
               className="w-full rounded-xl"
-              alt="Screenshots of the dashboard project showing desktop version"
+              alt="Dracarys Bicycles screenshot"
             />
           </div>
           <div className="flex flex-col items-center gap-y-8">
@@ -85,7 +85,7 @@ export default function Page() {
               width={1440}
               height={2989}
               className="w-full rounded-xl"
-              alt="Screenshots of the dashboard project showing desktop version"
+              alt="Alpen Fndo screenshot"
             />
           </div>
         </div>

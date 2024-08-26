@@ -15,7 +15,7 @@ export default function Home() {
         <div className="flex flex-col w-full justify-between pt-16 pb-16 pl-8 pr-8 md:p-48 text-center bg-sky-400 text-white text-xl space-y-2">
           <p>Hi, I'm</p>
           <p className={`${merriweather.className} text-5xl drop-shadow`}>Jeff Border</p>
-          <p>I work at the intersection of business, design, and tech</p>
+          {/* <p>I work at the intersection of business, design, and tech</p> */}
           <p>I'm a Product Designer and Strategist with over 10 years of design and development experience. My focus is UX/UI product design for mobile and web applications.</p>
         </div>
         <div className="flex flex-col justify-center items-center space-y-12 p-4 md:p-24 w-full lg:w-4/5">
@@ -25,7 +25,7 @@ export default function Home() {
               width={275}
               height={350}
               className="m-auto md:ml-auto"
-              alt="Screenshots of the dashboard project showing desktop version"
+              alt="Fidelity Youth"
             />
             <div className="flex flex-col w-full">
               <h3 className="text-3xl font-bold">Fidelity Youth™ app</h3>
@@ -45,7 +45,7 @@ export default function Home() {
               width={275}
               height={400}
               className="m-auto md:ml-auto"
-              alt="Screenshots of the dashboard project showing desktop version"
+              alt="Fresh Food Farmacy"
             />
             <div className="flex flex-col w-full">
             <h3 className="text-3xl font-bold">Fresh Food Farmacy</h3>
@@ -65,7 +65,7 @@ export default function Home() {
               width={275}
               height={166}
               className="m-auto md:ml-auto"
-              alt="Screenshots of the dashboard project showing desktop version"
+              alt="Chronic Disease Management"
             />
             <div className="flex flex-col w-full">
             <h3 className="text-3xl font-bold">Chronic Disease Management Center</h3>
@@ -85,7 +85,7 @@ export default function Home() {
               width={275}
               height={124}
               className="m-auto md:ml-auto"
-              alt="Screenshots of the dashboard project showing desktop version"
+              alt="Asthma Management Suite"
             />
             <div className="flex flex-col w-full">
             <h3 className="text-3xl font-bold">Asthma Management Suite</h3>
@@ -105,7 +105,7 @@ export default function Home() {
               width={275}
               height={190}
               className="m-auto md:ml-auto"
-              alt="Screenshots of the dashboard project showing desktop version"
+              alt="Concept work"
             />
             <div className="flex flex-col w-full">
             <h3 className="text-3xl font-bold">Concept Work</h3>
