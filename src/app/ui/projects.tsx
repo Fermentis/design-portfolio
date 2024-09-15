@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import Button from './button';
 import Image from 'next/image';
-import { merriweather } from '@/app/ui/fonts';
 import { Project } from '../lib/definitions'; 
 
 export default function Projects({

@@ -4,29 +4,30 @@ export default function Page() {
     return (
         <div>
             <TopNavigation />
-            <main className="flex flex-col ml-8 mr-8 lg:ml-32 lg:mr-32 space-y-8 pb-32">
-                <div className="flex flex-col w-full space-y-2">
-                    <h3 className="text-xl text-sky-400">Resume</h3>
+            <main className="flex flex-col mx-8 md:mx-36 lg:mx-64 space-y-8 pb-32">
+                <div className="flex flex-col w-full my-12 space-y-2">
+                    <h3 className="text-xl text-acorn-500 font-semibold">Resume</h3>
                     <h1 className="text-5xl font-bold">Jeff Border</h1>
                     <h2 className="text-4xl">Product Designer</h2>
                     <p className="text-gray-600">10+ Years Design and Development Experience</p>
                 </div>
                 <div className="flex flex-col md:grid md:grid-cols-3 md:space-x-8">
                     <div className="flex flex-col md:col-span-2 mb-16">
-                        <h3 className="text-xl text-sky-400 mb-2">Experience</h3>
-                        <div className="space-y-8">
+                        <h3 className="text-xl text-acorn-500 font-semibold mb-2">Experience</h3>
+                        <div className="space-y-16">
                             <section className="space-y-2">
-                                <h5 className="text-2xl text-gray-800"><span className="font-bold">Senior UX/UI Designer</span> • Pluto Health • Durham, NC (Remote)</h5>
-                                <p className="text-gray-500">Healthcare startup that consolidates your health information and recommends actionable care insights</p>
+                                <h5 className="text-2xl text-gray-800"><span className="font-bold">Senior UX/UI Designer</span> • Pluto Health • Durham, NC</h5>
+                                <p className="text-gray-500">Healthcare startup that consolidates your health information and recommends actionable care recommendations</p>
                                 <p>May 2024 - Current</p>
                                 <ul className="list-disc ml-8 space-y-2">
                                     <li>Designed streamlined account creation flow, patient dashboard, and administrative web apps</li>
                                     <li>Created design kit and documentation for iOS app and web apps</li>
-                                    <li>Updated branding and created brand standards documentation</li>
+                                    <li>Updated branding and created brand standards & documentation</li>
+                                    <li>Implemented Mixpanel tracking and dashboard to gain insights into the experience</li>
                                 </ul>
                             </section>
                             <section className="space-y-2">
-                                <h5 className="text-2xl text-gray-800"><span className="font-bold">Principal UX Designer</span> • Fidelity Investments • Boston, MA (Remote)</h5>
+                                <h5 className="text-2xl text-gray-800"><span className="font-bold">Principal UX Designer</span> • Fidelity Investments • Boston, MA</h5>
                                 <p className="text-gray-500">Financial & retirement planning, investments, and wealth management</p>
                                 <p>June 2022 - Apr 2024</p>
                                 <ul className="list-disc ml-8 space-y-2">
@@ -37,7 +38,7 @@ export default function Page() {
                                 </ul>
                             </section>
                             <section className="space-y-2">
-                                <h5 className="text-2xl text-gray-800"><span className="font-bold">UX Designer</span> • Vesta Healthcare • New York, NY (Remote)</h5>
+                                <h5 className="text-2xl text-gray-800"><span className="font-bold">UX Designer</span> • Vesta Healthcare • New York, NY</h5>
                                 <p className="text-gray-500">Remote monitoring healthcare startup connecting patients, caregivers, and family</p>
                                 <p>Nov 2021 - Mar 2022</p>
                                 <ul className="list-disc ml-8 space-y-2">
@@ -47,7 +48,7 @@ export default function Page() {
                                 </ul>
                             </section>
                             <section className="space-y-2">
-                                <h5 className="text-2xl text-gray-800"><span className="font-bold">Senior UX/UI Designer</span> • Geisinger Health System • Danville, PA (Hybrid)</h5>
+                                <h5 className="text-2xl text-gray-800"><span className="font-bold">Senior UX/UI Designer</span> • Geisinger Health System • Danville, PA</h5>
                                 <p className="text-gray-500">Regional hospital system known for innovation and forward thinking approach to healthcare</p>
                                 <p>May 2018 - Nov 2021</p>
                                 <ul className="list-disc ml-8 space-y-2">
@@ -95,29 +96,29 @@ export default function Page() {
                         </div>
                     </div>
                     <div className="flex flex-col space-y-8 md:col-span-1">
-                        <section className="space-y-2">
-                            <h3 className="text-xl text-sky-400">Skills</h3>
+                        <section>
+                            <h3 className="text-xl text-acorn-500 font-semibold">Skills</h3>
                             <p>LeanUX, Design Thinking, Agile/SCRUM, Design Evangelism and Education</p>
                         </section>
-                        <section className="space-y-2">
-                            <h3 className="text-xl text-sky-400">Deliverables</h3>
+                        <section>
+                            <h3 className="text-xl text-acorn-500 font-semibold">Deliverables</h3>
                             <p>Design systems, User personas, Journey maps, Wireframing, Prototyping, Affinity diagrams</p>
                         </section>
-                        <section className="space-y-2">
-                            <h3 className="text-xl text-sky-400">Tools</h3>
+                        <section>
+                            <h3 className="text-xl text-acorn-500 font-semibold">Tools</h3>
                             <p>Figma, Adobe XD, UserTesting, Adobe CC, VS Code</p>
                         </section>
-                        <section className="space-y-2">
-                            <h3 className="text-xl text-sky-400">Education</h3>
-                            <div><h5 className="font-bold">Bloomsburg University
+                        <section>
+                            <h3 className="text-xl text-acorn-500 font-semibold">Education</h3>
+                            <div><h5 className="font-semibold">Bloomsburg University
                             </h5>
                                 <p>Master of Science in Instructional Design & Technology</p>
                             </div>
-                            <div><h5 className="font-bold">Bloomsburg University
+                            <div><h5 className="font-semibold">Bloomsburg University
                             </h5>
                                 <p>‍Bachelor of Science in Business Administration Finance concentration</p>
                             </div>
-                            <div><h5 className="font-bold">Professional Scrum with UX(PSU) Certification
+                            <div><h5 className="font-semibold">Professional Scrum with UX(PSU) Certification
                             </h5>
                                 <p>Scrum.org • 2020</p>
                             </div>

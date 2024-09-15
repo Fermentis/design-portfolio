@@ -1,7 +1,6 @@
 
 import '@/app/ui/global.css';
-import { openSans } from '@/app/ui/fonts';
-import { outfit } from '@/app/ui/fonts';
+import { montserrat, figtree } from '@/app/ui/fonts';
 import { GoogleAnalytics } from '@next/third-parties/google'
  
 export default function RootLayout({
@@ -11,7 +10,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-       <body className={`${outfit.className} antialiased`}>{children}</body>
+       <body className={`${montserrat.className} ${figtree.className} antialiased`}>{children}</body>
        <GoogleAnalytics gaId="G-18HVNWQSGK" />
     </html>
   );

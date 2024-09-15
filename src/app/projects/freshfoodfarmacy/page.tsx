@@ -5,84 +5,66 @@ export default function Page() {
   return (
     <div>
       <TopNavigation />
-      <main className="flex min-h-screen flex-col">
-        <div className="text-center mb-8 space-y-2">
-          <p className="text-gray-600">Geisinger Health System</p>
-          <h1 className="text-3xl font-bold">Fresh Food Farmacy</h1>
-          <p className="text-xl text-gray-700">Helping patients with food insecurity and their conditions</p>
-        </div>
-        <div className="flex flex-row bg-sky-400 justify-center">
-          <Image
-            src="/fffhome.png"
-            width={412}
-            height={525}
-            className="md:block rounded-xl"
-            alt="Fresh Food Farmacy screenshot 1"
-          />
-          <Image
-            src="/fffmealplan.png"
-            width={412}
-            height={525}
-            className="hidden md:block rounded-xl"
-            alt="Fresh Food Farmacy screenshot 2"
-          />
-          <Image
-            src="/fffjournal.png"
-            width={412}
-            height={525}
-            className="hidden md:block rounded-xl"
-            alt="Fresh Food Farmacy screenshot 3"
-          />
-        </div>
-        <div className="flex flex-col col-span-full p-4 md:p-24 space-y-12 items-center">
-          <div className="flex flex-col w-full lg:w-2/3 gap-y-8">
-            <div>
-              <h3 className="text-l text-gray-800 font-bold">My Role</h3>
-              <p className="text-gray-700">I was responsible for all user experience strategy and designs. I also led the team through the design process including research, prototypes, and user testing.</p>
+      <main className="flex flex-col min-h-screen">
+        <div className="flex-col bg-neutral-100 justify-center space-y-12">
+
+          <div className="flex flex-row justify-center">
+            <div className="flex-col justify-center w-full md:w-4/5 p-4 md:px-12 md:pt-12 md:pb-0 lg:px-24 lg:pt-16 lg:pb-0 space-y-2">
+              <p className="text-sky-500 text-sm font-bold">Geisinger Health System</p>
+              <h1 className="text-2xl lg:text-6xl font-bold text-neutral-800">Fresh Food Farmacy</h1>
+              <p className="text-xl md:text-2xl text-neutral-600 font-medium">Assists people with food insecurity, and helps those with diabetes to lower their blood sugar through healthy eating.</p>
+              <p className="text-sm text-gray-800 font-bold">Patient iOS & Android app • Administrative web app</p>
             </div>
-            <div>
-              <h3 className="text-l text-gray-800 font-bold">Skills</h3>
-              <p className="text-gray-700">UI, UX, Prototyping, Interviewing, Contextual Inquiry/Job Shadowing, User Testing</p>
-            </div>
-            <div>
-              <h2 className="text-2xl text-gray-800 font-bold">Overview</h2>
-              <p className="text-gray-700">Fresh Food Farmacy is a program that seeks to both assist people with food insecurity, and help those with diabetes to lower their A1c(blood sugar) through healthy eating. The solution is a patient app and an administration dashboard.</p>
-            </div>
-            <div>
-              <h3 className="text-l text-gray-800 font-bold">Patient app</h3>
-              <p className="text-gray-700">The patient app is a personalized app for individuals who needed assistance managing their diabetes and A1c(blood sugar), they can also arrange for food pickups of healthy food and view healthy recipes.</p>
-            </div>
-            <div>
-              <h3 className="text-l text-gray-800 font-bold">Administration app</h3>
-              <p className="text-gray-700">The administration dashboard allows for farmacy staff to manage patients and their food pantry. There is also a clinical portion of the app that enabled the clinicians to monitor how their patients are doing and help them when needed.</p>
-            </div>
-            <div>
-              <h2 className="text-2xl text-gray-800 font-bold">Problem</h2>
-              <p className="text-gray-700">Food insecurity and diabetes are both hard problems to manage individually. The program aims to lower your A1c through proper nutrition and education, thus eliminating both at the same time. It's hard to manage your diabetes when you can't afford food, and less expensive food usually isn't very nutritious, and you also aren't sure what to eat because you lack the proper education.</p>
-            </div>
-            <h2 className="text-2xl text-gray-800 font-bold">Process</h2>
-            <div>
-              <h3 className="text-l text-gray-800 font-bold">Research</h3>
-              <p className="text-gray-700">To better understand the patients we conducted several site visits through the pantry where we observed patients and were able to ask questions as they went through the food pantry and listen to any issues they had. We were also able to take pictures and ask the staff about their process and shadow them in their work.</p>
-            </div>
-            <div>
-              <h3 className="text-l text-gray-800 font-bold">Ideation</h3>
-              <p className="text-gray-700">After our site visits and interviews we looked to identify opportunities and brainstorm to ideate around initial and future features.</p>
-            </div>
-            <div>
-              <h3 className="text-l text-gray-800 font-bold">Prototypes</h3>
-              <p className="text-gray-700">We then created apps for both the administrators and patients. We reviewed and went through several iterations with the stakeholders, and we also showed patients the app for some user testing and impressions.</p>
-            </div>
-            <div>
-              <h3 className="text-l text-gray-800 font-bold">Development and Iteration              </h3>
-              <p className="text-gray-700">After some changes based on our testing and patient feedback the app was then released and we began enrolling patients.</p>
-            </div>
-            <div>
-              <h2 className="text-2xl text-gray-800 font-bold">Outcome</h2>
-              <p className="text-gray-700">Patients were using the app successfully, but due to COVID the team was pulled in other directions and work on the patient side mostly stood still while there were iterations on the admin side to better accommodate their process.</p>
+          </div>
+          <div className="flex flex-row justify-center">
+            <div className="flex-col justify-center w-full md:w-4/5">
+              <div className="flex flex-row justify-center lg:justify-between md:gap-x-4 p-4 md:px-12  md:pb-12 lg:px-24 lg:pt-4">
+                <Image
+                  src="/fffhome.png"
+                  width={230}
+                  height={498}
+                  className="md:block rounded-xl"
+                  alt="Fresh Food Farmacy Home screenshot"
+                />
+                <Image
+                  src="/fffmealplan.png"
+                  width={230}
+                  height={498}
+                  className="hidden md:block rounded-xl"
+                  alt="Fresh Food Farmacy Meal Plan screenshot"
+                />
+                <Image
+                  src="/fffjournal.png"
+                  width={230}
+                  height={498}
+                  className="hidden md:block rounded-xl"
+                  alt="Fresh Food Farmacy Schedule screenshot"
+                />
+              </div>
             </div>
           </div>
         </div>
+        <div className="flex flex-col col-span-full p-4 md:p-12 lg:p-24 space-y-12 items-center">
+          <div className="flex flex-col w-full md:w-4/5 gap-y-8">
+            <div>
+              <h1 className="text-l text-sky-500 font-bold">Role</h1>
+              <p className="text-neutral-600 font-medium text-xl">As <span className="font-bold">Senior UX Designer</span> I was responsible for all user experience strategy and designs. I also led the team through the design process including research, prototypes, and user testing.</p>
+            </div>
+            <div>
+              <h1 className="text-l text-sky-500 font-bold">Skills</h1>
+              <div className="font-medium text-xl">
+                <p className="text-gray-700">+ User experience</p>
+                <p className="text-gray-700">+ User interface</p>
+                <p className="text-gray-700">+ Prototyping</p>
+                <p className="text-gray-700">+ UserTesting</p>
+                <p className="text-gray-700">+ Design systems</p>
+                <p className="text-gray-700">+ Concept designs</p>
+                <p className="text-gray-700">+ Contextual Inquiry/Job Shadowing</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </main>
     </div>
   )
