@@ -53,7 +53,7 @@ export default function Home() {
             <div className="flex flex-row flex-wrap justify-center gap-x-6 gap-y-6">
               <Link
                 href="/projects/fidelityyouth"
-                className="flex flex-row w-[360px] md:w-[475px] h-[228px] justify-between rounded-lg bg-neutral-100 space-x-6 pt-6 pr-6 pl-6 text-sm font-medium text-neutral-800 transition-colors hover:bg-neutral-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500 active:bg-sky-600 aria-disabled:cursor-not-allowed aria-disabled:opacity-50">
+                className="flex flex-row w-[360px] md:w-[475px] md:h-[228px] justify-between items-end md:items-center rounded-lg bg-neutral-100 space-x-6 pt-6 pr-6 pl-6 text-sm font-medium text-neutral-800 transition-colors hover:bg-neutral-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-acorn-500 active:bg-acorn-500 aria-disabled:cursor-not-allowed aria-disabled:opacity-50">
                 <div className="flex flex-col space-y-8">
                   <p className="text-l font-bold">2023</p>
                   <Image
@@ -64,21 +64,21 @@ export default function Home() {
                   />
                   <div>
                     <p className="text-l font-bold">Fidelity Investments</p>
-                    <p className="text-gray-600 text-neutral-500 font-semibold">Fidelity Youth™ app</p>
+                    <p className="text-gray-600 text-neutral-500 font-semibold pb-4">Fidelity Youth™ app</p>
                   </div>
                 </div>
                 <Image
                   src="/fidyouth_main.png"
                   width={137}
-                  height={300}
+                  height={204}
                   alt="Fidelity Youth screenshot"
-                  className="flex flex-col"
+                  className="flex flex-col h-[204px]"
                 />
               </Link>
 
               <Link
                 href="/projects/freshfoodfarmacy"
-                className="flex flex-row w-[360px] md:w-[475px] h-[228px] justify-between rounded-lg bg-neutral-100 space-x-6 pt-6 pr-6 pl-6 text-sm font-medium text-neutral-800 transition-colors hover:bg-neutral-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500 active:bg-sky-600 aria-disabled:cursor-not-allowed aria-disabled:opacity-50">
+                className="flex flex-row w-[360px] md:w-[475px] md:h-[228px] justify-between items-end md:items-center rounded-lg bg-neutral-100 space-x-6 pt-6 px-6 text-sm font-medium text-neutral-800 transition-colors hover:bg-neutral-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-acorn-500 active:bg-acorn-500 aria-disabled:cursor-not-allowed aria-disabled:opacity-50">
                 <div className="flex flex-col space-y-8">
                   <p className="text-l font-bold">2021</p>
                   <Image
@@ -89,22 +89,22 @@ export default function Home() {
                   />
                   <div>
                     <p className="text-l font-bold">Geisinger Health System</p>
-                    <p className="text-gray-600 text-neutral-500 font-semibold">Food insecurity app</p>
+                    <p className="text-gray-600 text-neutral-500 font-semibold pb-4">Food insecurity app</p>
                   </div>
                 </div>
                 <Image
                   src="/fff_main.png"
                   width={137}
-                  height={300}
+                  height={204}
                   alt="Fresh Food Farmacy screenshot"
-                  className="flex flex-col h-[px]"
+                  className="flex flex-col h-[204px]"
                 />
               </Link>
             </div>
             <div className="flex flex-row flex-wrap justify-center gap-x-6 gap-y-6">
               <Link
                 href="/projects/asthma"
-                className="flex flex-row w-[360px] md:w-[475px] h-[228px] justify-between items-center rounded-lg bg-neutral-100 space-x-6 pt-6 pr-6 pl-6 text-sm font-medium text-neutral-800 transition-colors hover:bg-neutral-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500 active:bg-sky-600 aria-disabled:cursor-not-allowed aria-disabled:opacity-50">
+                className="flex flex-row w-[360px] md:w-[475px] md:h-[228px] justify-between items-center rounded-lg bg-neutral-100 space-x-6 pt-6 pr-6 pl-6 text-sm font-medium text-neutral-800 transition-colors hover:bg-neutral-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-acorn-500 active:bg-acorn-500 aria-disabled:cursor-not-allowed aria-disabled:opacity-50">
                 <div className="flex flex-col space-y-8">
                   <p className="text-l font-bold">2018</p>
                   <Image
@@ -115,7 +115,7 @@ export default function Home() {
                   />
                   <div>
                     <p className="text-l font-bold">Geisinger Health System</p>
-                    <p className="text-gray-600 text-neutral-500 font-semibold">Asthma management suite of apps</p>
+                    <p className="text-gray-600 text-neutral-500 font-semibold pb-4">Asthma management suite of apps</p>
                   </div>
                 </div>
                 <Image
@@ -128,7 +128,7 @@ export default function Home() {
               </Link>
               <Link
                 href="/projects/cdm"
-                className="flex flex-row w-[360px] md:w-[475px] h-[228px] justify-between items-center rounded-lg bg-neutral-100 space-x-6 pt-6 pr-6 pl-6 text-sm font-medium text-neutral-800 transition-colors hover:bg-neutral-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500 active:bg-sky-600 aria-disabled:cursor-not-allowed aria-disabled:opacity-50">
+                className="flex flex-row w-[360px] md:w-[475px] md:h-[228px] justify-between items-center rounded-lg bg-neutral-100 space-x-6 pt-6 pr-6 pl-6 text-sm font-medium text-neutral-800 transition-colors hover:bg-neutral-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-acorn-500 active:bg-acorn-500 aria-disabled:cursor-not-allowed aria-disabled:opacity-50">
                 <div className="flex flex-col space-y-8">
                   <p className="text-l font-bold">2020</p>
                   <Image
@@ -139,7 +139,7 @@ export default function Home() {
                   />
                   <div>
                     <p className="text-l font-bold">Geisinger Health System</p>
-                    <p className="text-gray-600 text-neutral-500 font-semibold">Chronic disease management</p>
+                    <p className="text-gray-600 text-neutral-500 font-semibold pb-4">Chronic disease management</p>
                   </div>
                 </div>
                 <Image
