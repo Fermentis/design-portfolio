@@ -20,7 +20,7 @@ export default function TopNavigation() {
             <div className='flex justify-end items-center space-x-4'>
                 <nav className='flex space-x-4'>
                     <a href="../" className="hover:text-acorn-800 font-semibold text-sm">Portfolio</a>
-                    <a href="/resume" className="hover:text-acorn-800 font-semibold text-sm">Resume</a>
+                    <a href="/JeffBorderResume.pdf" className="hover:text-acorn-800 font-semibold text-sm">Resume</a>
                 </nav>
                 <Link
                     href="mailto:jeffrey.border@gmail.com"

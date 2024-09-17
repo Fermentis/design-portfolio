@@ -1,4 +1,8 @@
 import TopNavigation from "@/app/ui/topnav";
+import Link from "next/link";
+import {
+    ArrowDownTrayIcon,
+  } from '@heroicons/react/24/outline'
 
 export default function Page() {
     return (
@@ -8,7 +12,11 @@ export default function Page() {
                 <div className="flex flex-col w-full my-12 space-y-2">
                     <h3 className="text-xl text-acorn-500 font-semibold">Resume</h3>
                     <h1 className="text-5xl font-bold">Jeff Border</h1>
-                    <h2 className="text-4xl">Product Designer</h2>
+                    <Link
+                    href="/JeffBorderResume.pdf"
+                    className="rounded-full px-2 py-2 hover:bg-acorn-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-acorn-500 active:bg-acorn-800 aria-disabled:cursor-not-allowed aria-disabled:opacity-50">
+                    <ArrowDownTrayIcon className="size-8 text-acorn-500" />
+                </Link>
                     <p className="text-gray-600">10+ Years Design and Development Experience</p>
                 </div>
                 <div className="flex flex-col md:grid md:grid-cols-3 md:space-x-8">
@@ -20,10 +28,10 @@ export default function Page() {
                                 <p className="text-gray-500">Healthcare startup that consolidates your health information and recommends actionable care recommendations</p>
                                 <p>May 2024 - Current</p>
                                 <ul className="list-disc ml-8 space-y-2">
-                                    <li>Designed streamlined account creation flow, patient dashboard, and administrative web apps</li>
+                                    <li>Designed streamlined account creation flow, patient dashboard, and admin web apps</li>
                                     <li>Created design kit and documentation for iOS app and web apps</li>
-                                    <li>Updated branding and created brand standards & documentation</li>
-                                    <li>Implemented Mixpanel tracking and dashboard to gain insights into the experience</li>
+                                    <li>Updated branding and created brand standards documentation</li>
+                                    <li>Implemented Mixpanel tracking and created dashboard to gain insights into the experience</li>
                                 </ul>
                             </section>
                             <section className="space-y-2">
@@ -54,7 +62,7 @@ export default function Page() {
                                 <ul className="list-disc ml-8 space-y-2">
                                     <li>As a team of one, lead design on the product innovation team and responsible for guiding the team through all phases of the design process</li>
                                     <li>Introduced and began implementing design process and design thinking with the team, working towards scaling and operationalizing design throughout the organization</li>
-                                    <li>Lead designer for initial phase of company’s digital transformation working with teams across the enterprise and stakeholders at all levels</li>
+                                    <li>Lead designer for initial phase of company's digital transformation working with teams across the enterprise and stakeholders at all levels</li>
                                     <li>Worked with cross functional team members to begin implementing SCRUM/LeanUX processes, as well as developing mission statement and values to improve team culture</li>
                                     <li>Presented and evangelized design to product team and key leadership positions</li>
                                     <li>Conducted research including interviews, site visits, job shadowing, contextual inquiries and surveys to better understand customer needs</li>
@@ -69,13 +77,13 @@ export default function Page() {
                                 <p>Jun 2011 - May 2018</p>
                                 <ul className="list-disc ml-8 space-y-2">
                                     <li>Originated idea for and wrote proposal that resulted in over a million-dollar collaboration with AstraZeneca to create a healthcare social network and integrated electronic health record application that brings doctors and patients together to transform patient care</li>
-                                    <li>Designed and developed several multi-million dollar joint projects with Merck to create patient and provider collaboration applications that facilitate patients’ heart disease and diabetes care and education</li>
+                                    <li>Designed and developed several multi-million dollar joint projects with Merck to create patient and provider collaboration applications that facilitate patients' heart disease and diabetes care and education</li>
                                     <li>Architected a health application and survey management system for patient and provider applications</li>
-                                    <li>Gathered and analyzed business requirements with subject matter experts(SMEs) to define project requirements and design tools to improve patients’ understanding of conditions and empower the patients</li>
+                                    <li>Gathered and analyzed business requirements with subject matter experts(SMEs) to define project requirements and design tools to improve patients' understanding of conditions and empower the patients</li>
                                     <li>Learned through self education, introduced team to, and implemented AngularJS and Angular Material to update development stack for future projects</li>
                                     <li>Advised the department to move to REST APIs to help prepare the organization for future development</li>
                                     <li>Created wireframes and mockups for all projects</li>
-                                    <li>Advised management to incorporate 360 feedback/lessons learned reviews, one-on-one’s, and daily stand-ups</li>
+                                    <li>Advised management to incorporate 360 feedback/lessons learned reviews, one-on-one's, and daily stand-ups</li>
                                     <li>Introduced needs analysis techniques such as interviewing and job-shadowing to flush out project details and provide clear objectives and direction of projects</li>
                                     <li>Implemented front-end workflow management tools to streamline front-end development and created SOPs</li>
                                 </ul>

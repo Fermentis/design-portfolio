@@ -156,7 +156,7 @@ export default function Home() {
           <h3 className="text-xl md:text-3xl font-bold text-neutral-600">I've worked for and learn about a variety of industries and topics, which helps make connections and design for complex systems.</h3>
           <div className="flex flex-col w-full">
             <h3 className="text-xl md:text-3xl font-bold text-neutral-600">About me</h3>
-            <p className="md:text-2xl text-neutral-500 font-medium">In addition to being a designer, I'm a husband and dad of two daughters, love to cook, home brew, smoked bbq enthusiast, cyclist, and technologist. I am a curious person and like to learn why things work and why people do the things they do. I also enjoy gaming including VR on the Quest and have a background as a front-end developer and instructional designer and technologist.</p>
+            <p className="md:text-2xl text-neutral-500 font-medium">In addition to being a designer, I'm a husband and dad of two daughters, love to cook, fermentations, smoked bbq enthusiast, cyclist, and technologist. I am a curious person and like to learn why things work and why people do the things they do. I also enjoy gaming including VR and have a background as a front-end developer, instructional designer, and technologist.</p>
           </div>
           <div className="flex flex-col w-full">
             <h3 className="text-xl md:text-3xl font-bold text-neutral-600">Get in touch!</h3>
