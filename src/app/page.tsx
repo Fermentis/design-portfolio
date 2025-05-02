@@ -13,15 +13,17 @@ export default function Home() {
   return (
     <div>
       <TopNavigation />
-      <main className="flex flex-col justify-center">
-        <div className="flex flex-col lg:flex-row py-16 px-8 md:px-12 md:py-16 lg:py-32 lg:px-32 gap-y-8 md:gap-y-16 lg:gap-x-16  bg-gradient-to-b from-[#4bbea3] to-[#45a033] justify-center items-center">
-
+      {/* HERO SECTION: full width background, aligned content */}
+      <div
+        id="hero"
+        className="w-full bg-gradient-to-b from-[#4bbea3] to-[#45a033] py-16 lg:py-32"
+      >
+        <div className="max-w-7xl mx-auto w-full flex flex-col lg:flex-row gap-y-8 md:gap-y-16 lg:gap-x-16 justify-center items-center px-4 sm:px-6 md:px-8 lg:px-16 xl:px-24">
           <div className="flex flex-col md:space-y-4 space-y-1 font-medium lg:w-3/5">
             <p className="text-white md:text-7xl text-5xl font-extrabold font-['Figtree']">Jeff Border</p>
             <p className="md:text-2xl text-white lg:leading-7"><span className="text-[#264e19] font-bold">Product Designer</span> and strategist shipping experiences in complex industries</p>
             <p className="text-[#bdf0d1] text-sm md:text-base font-bold">Finance • Healthcare • Insurance • Education</p>
           </div>
-
           <div className="flex flex-col space-y-4 md:space-y-8 font-medium w-full lg:w-2/5">
             <div className="flex flex-row">
               <PaintBrushIcon className="size-8 text-acorn-800" />
@@ -46,8 +48,10 @@ export default function Home() {
             </div>
           </div>
         </div>
-
-        <div className="flex flex-col space-y-12 lg:space-y-24 px-8 py-16 md:py-24 md:px-12 lg:px-32 justify-center">
+      </div>
+      {/* MAIN CONTENT: constrained width */}
+      <main className="flex flex-col justify-center max-w-7xl mx-auto w-full">
+        <div className="flex flex-col space-y-12 lg:space-y-24 px-4 sm:px-6 md:px-8 lg:px-16 xl:px-24 py-16 md:py-24 justify-center">
           <h3 className="flex flex-row text-xl md:text-3xl font-bold text-neutral-600">Work I've done as a designer and leader</h3>
           <div className="flex flex-col space-y-6">
             <div className="flex flex-row flex-wrap justify-center gap-x-6 gap-y-6">
@@ -156,14 +160,14 @@ export default function Home() {
           <h3 className="text-xl md:text-3xl font-bold text-neutral-600">I've worked for and learn about a variety of industries and topics, which helps make connections and design for complex systems.</h3>
           <div className="flex flex-col w-full">
             <h3 className="text-xl md:text-3xl font-bold text-neutral-600">About me</h3>
-            <p className="md:text-2xl text-neutral-500 font-medium">In addition to being a designer, I am a curious person and like to learn why things work the way they do and why people do the things they do. I also enjoy gaming including VR and have a background as a front-end developer, instructional designer, and technologist. I love to cook, fermentations, am a smoked bbq enthusiast, and cyclist. </p>
+            <p className="md:text-2xl text-neutral-500 font-medium">I’m a curious designer who loves digging into how things work — and why people do what they do. My background spans front-end development, instructional design, and emerging tech, which gives me a well-rounded perspective on problem-solving. Outside of design, I’m into gaming and VR, smoked BBQ, fermentation projects, cycling, and experimenting in the kitchen.</p>
           </div>
           <div className="flex flex-col w-full">
             <h3 className="text-xl md:text-3xl font-bold text-neutral-600">Get in touch!</h3>
             <a className="text-sky-400 underline" href="mailto:jeffrey.border@gmail.com">jeffrey.border@gmail.com</a>
           </div>
         </div>
-      </main >
-    </div >
+      </main>
+    </div>
   );
 }

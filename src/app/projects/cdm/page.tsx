@@ -5,35 +5,36 @@ export default function Page() {
   return (
     <div>
       <TopNavigation />
-      <main className="flex flex-col min-h-screen">
-        <div className="flex-col bg-neutral-100 justify-center space-y-12">
-
-          <div className="flex flex-row justify-center">
-            <div className="flex-col justify-center w-full md:w-4/5 p-4 md:px-12 md:pt-12 md:pb-0 lg:px-24 lg:pt-16 lg:pb-0 space-y-2">
-              <p className="text-sky-500 text-sm font-bold">Geisinger Health System</p>
-              <h1 className="text-2xl lg:text-6xl font-bold text-neutral-800">Chronic disease management</h1>
-              <p className="text-xl md:text-2xl text-neutral-600 font-medium">A project designed to help patients, providers and care managers combine to manage a patient's chronic conditions. The solution is an app for patients and an administration dashboard and app for the care team.</p>
-            </div>
+      {/* HERO SECTION */}
+      <div className="w-full bg-neutral-100 py-12">
+        <div className="max-w-7xl mx-auto w-full px-4 sm:px-6 md:px-8 lg:px-16 xl:px-24">
+          <div className="space-y-2">
+            <p className="text-sky-500 text-sm font-bold">Geisinger Health System</p>
+            <h1 className="text-2xl lg:text-6xl font-bold text-neutral-800">Chronic disease management</h1>
+            <p className="text-xl md:text-2xl text-neutral-600 font-medium">
+              A project designed to help patients, providers and care managers combine to manage a patient's chronic conditions. The solution is an app for patients and an administration dashboard and app for the care team.
+            </p>
           </div>
-          <div className="flex flex-row justify-center">
-            <div className="flex-col justify-center w-full md:w-4/5">
-              <div className="flex flex-row justify-center md:gap-x-4 p-4 md:px-12  md:pb-12 lg:px-24 lg:pt-4">
-                <Image
-                  src="/cdm.png"
-                  width={800}
-                  height={465}
-                  className="md:block rounded-xl"
-                  alt="Chronic disease management screenshot"
-                />
-              </div>
-            </div>
+          <div className="flex flex-row justify-center md:gap-x-4 mt-8">
+            <Image
+              src="/cdm.png"
+              width={800}
+              height={465}
+              className="md:block rounded-xl"
+              alt="Chronic disease management screenshot"
+            />
           </div>
         </div>
-        <div className="flex flex-col col-span-full p-4 md:p-12 lg:p-24 space-y-12 items-center">
-          <div className="flex flex-col w-full md:w-4/5 gap-y-8">
+      </div>
+      {/* CONTENT BELOW HERO */}
+      <main className="max-w-7xl mx-auto w-full px-4 sm:px-6 md:px-8 lg:px-16 xl:px-24 py-8 md:py-12 lg:py-16">
+        <div className="space-y-12">
+          <div className="gap-y-8 space-y-8">
             <div>
               <h1 className="text-l text-sky-500 font-bold">Role</h1>
-              <p className="text-neutral-600 font-medium text-xl">As <span className="font-bold">Senior UX Designer</span> I worked in tandem with a consultant group and was responsible for user experience strategy and designs. I also lead the internal team through the design process.</p>
+              <p className="text-neutral-600 font-medium text-xl">
+                As <span className="font-bold">Senior UX Designer</span> I worked in tandem with a consultant group and was responsible for user experience strategy and designs. I also lead the internal team through the design process.
+              </p>
             </div>
             <div>
               <h1 className="text-l text-sky-500 font-bold">Skills</h1>
@@ -48,8 +49,7 @@ export default function Page() {
             </div>
           </div>
         </div>
-
       </main>
     </div>
-  )
+  );
 }

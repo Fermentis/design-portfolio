@@ -5,36 +5,39 @@ export default function Page() {
   return (
     <div>
       <TopNavigation />
-      <main className="flex flex-col min-h-screen">
-        <div className="flex-col bg-neutral-100 justify-center space-y-12">
-
-          <div className="flex flex-row justify-center">
-            <div className="flex-col justify-center w-full md:w-4/5 p-4 md:px-12 md:pt-12 md:pb-0 lg:px-24 lg:pt-16 lg:pb-0 space-y-2">
-              <p className="text-sky-500 text-sm font-bold">Geisinger Health System</p>
-              <h1 className="text-2xl lg:text-6xl font-bold text-neutral-800">Asthma management suite</h1>
-              <p className="text-xl md:text-2xl text-neutral-600 font-medium">A suite of tools that assists patients in managing asthma. The app allowed patients to talk to their doctors about their conditions and view patterns in their health for better management.</p>
-              <p className="text-sm text-gray-800 font-bold">Patient iOS & Android app • Provider web app • Pulmonary specialist web app</p>
-            </div>
+      {/* HERO SECTION */}
+      <div className="w-full bg-neutral-100 py-12">
+        <div className="max-w-7xl mx-auto w-full px-4 sm:px-6 md:px-8 lg:px-16 xl:px-24">
+          <div className="space-y-2">
+            <p className="text-sky-500 text-sm font-bold">Geisinger Health System</p>
+            <h1 className="text-2xl lg:text-6xl font-bold text-neutral-800">Asthma management suite</h1>
+            <p className="text-xl md:text-2xl text-neutral-600 font-medium">
+              A suite of tools that assists patients in managing asthma. The app allowed patients to talk to their doctors about their conditions and view patterns in their health for better management.
+            </p>
+            <p className="text-sm text-gray-800 font-bold">
+              Patient iOS & Android app • Provider web app • Pulmonary specialist web app
+            </p>
           </div>
-          <div className="flex flex-row justify-center">
-            <div className="flex-col justify-center w-full md:w-4/5">
-              <div className="flex flex-row justify-center md:gap-x-4 p-4 md:px-12  md:pb-12 lg:px-24 lg:pt-4">
-                <Image
-                  src="/asthma.png"
-                  width={975}
-                  height={600}
-                  className="md:block rounded-xl"
-                  alt="Asthma management suite screenshots"
-                />
-              </div>
-            </div>
+          <div className="flex flex-row justify-center md:gap-x-4 mt-8">
+            <Image
+              src="/asthma.png"
+              width={975}
+              height={600}
+              className="md:block rounded-xl"
+              alt="Asthma management suite screenshots"
+            />
           </div>
         </div>
-        <div className="flex flex-col col-span-full p-4 md:p-12 lg:p-24 space-y-12 items-center">
-          <div className="flex flex-col w-full md:w-4/5 gap-y-8">
+      </div>
+      {/* CONTENT BELOW HERO */}
+      <main className="max-w-7xl mx-auto w-full px-4 sm:px-6 md:px-8 lg:px-16 xl:px-24 py-8 md:py-12 lg:py-16">
+        <div className="space-y-12">
+          <div className="gap-y-8 space-y-8">
             <div>
               <h1 className="text-l text-sky-500 font-bold">Role</h1>
-              <p className="text-neutral-600 font-medium text-xl">As <span className="font-bold">Senior UX Designer</span> I was responsible for all user experience strategy and designs. I also led the team through the design process including research, personas, journey mapping, prototypes, and user testing.</p>
+              <p className="text-neutral-600 font-medium text-xl">
+                As <span className="font-bold">Senior UX Designer</span> I was responsible for all user experience strategy and designs. I also led the team through the design process including research, personas, journey mapping, prototypes, and user testing.
+              </p>
             </div>
             <div>
               <h1 className="text-l text-sky-500 font-bold">Skills</h1>
@@ -51,8 +54,7 @@ export default function Page() {
             </div>
           </div>
         </div>
-
       </main>
     </div>
-  )
+  );
 }

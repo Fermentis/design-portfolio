@@ -8,7 +8,7 @@ export default function Page() {
     return (
         <div>
             <TopNavigation />
-            <main className="flex flex-col mx-8 md:mx-36 lg:mx-64 space-y-8 pb-32">
+            <main className="flex flex-col min-h-screen max-w-7xl mx-auto w-full px-4 sm:px-6 md:px-8 lg:px-16 xl:px-24 py-8 md:py-12 lg:py-16">
                 <div className="flex flex-col w-full my-12 space-y-2">
                     <h3 className="text-xl text-acorn-500 font-semibold">Resume</h3>
                     <h1 className="text-5xl font-bold">Jeff Border</h1>
