@@ -20,7 +20,7 @@ export default function Page() {
           </div>
           <div className="flex flex-row justify-center md:gap-x-4 mt-8">
             <Image
-              src="/asthma.png"
+              src="/project_edge.png"
               width={975}
               height={600}
               className="md:block rounded-xl"

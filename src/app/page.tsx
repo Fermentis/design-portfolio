@@ -123,7 +123,7 @@ export default function Home() {
                   </div>
                 </div>
                 <Image
-                  src="/asthma_main.png"
+                  src="/project_edge.png"
                   width={137}
                   height={82}
                   alt="Asthma management screenshot"
