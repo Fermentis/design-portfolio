@@ -4,7 +4,6 @@ import { useState } from 'react';
 import Link from 'next/link';
 
 export default function TopNavigation() {
-
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleMenu = () => {
@@ -12,7 +11,7 @@ export default function TopNavigation() {
     };
 
     return (
-        <header className="bg-neutral-0 text-black flex justify-between items-center py-2 px-4 sm:px-6 md:px-8 lg:px-16 xl:px-24 max-w-7xl mx-auto w-full">
+        <header className="bg-neutral-0 text-black flex justify-between items-center py-2 max-w-7xl mx-auto w-full px-8 sm:px-12 md:px-16 lg:px-32 xl:px-48">
             <div className="flex flex-row justify-items-start items-center text-acorn-800">
                 <a href="../" className="font-semibold hidden sm:flex">Jeff Border</a>
                 <a href="../" className="font-semibold visible sm:hidden">JB</a>
