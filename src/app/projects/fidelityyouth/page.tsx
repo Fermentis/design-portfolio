@@ -12,7 +12,7 @@ export default function Page() {
             <p className="text-acorn-500 text-sm font-bold">Fidelity Investments</p>
             <h1 className="text-2xl lg:text-6xl font-bold text-neutral-800">Fidelity Youth™ App</h1>
             <p className="text-xl md:text-2xl text-neutral-600 font-medium">
-              A teen-owned brokerage account that gives teens ages 13–17 the power to save, spend, and invest their own money—while letting parents stay connected.
+              A teen-owned brokerage account that gives teens ages 13-17 the power to save, spend, and invest their own money while letting parents stay connected.
             </p>
             <p className="text-sm text-gray-800 font-bold">iOS & Android app</p>
           </div>
@@ -47,7 +47,7 @@ export default function Page() {
             <div>
               <h1 className="text-xl md:text-3xl font-bold text-neutral-600 mb-4">Role</h1>
               <p className="text-neutral-600 font-medium text-xl">
-                As the <span className="font-bold">Principal UX Designer</span> on a small team, I led the design process from early-stage ideas and concepts through refinement, high-fidelity design, and final app release — including ongoing iterations.
+                As the <span className="font-bold">Principal UX Designer</span> on a small team, I led the design process for portions of the app from early-stage ideas and concepts through refinement, high-fidelity design, and final app release, including ongoing iterations.
               </p>
             </div>
             <div>

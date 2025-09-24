@@ -28,21 +28,21 @@ export default function Home() {
             <div className="flex flex-row">
               <PaintBrushIcon className="size-8 text-acorn-800" />
               <div className="">
-                <p className="text-white md:text-2xl font-bold pl-2">Design</p>
-                <p className="text-white/90 md:text-2xl pl-2">Ms in Design & 10 yrs experience</p>
+                <p className="text-white md:text-2xl font-bold pl-2 mb-1">Design</p>
+                <p className="text-white/90 md:text-2xl pl-2 ">Ms in Design & 10 yrs experience</p>
               </div>
             </div>
             <div className="flex flex-row">
               <BriefcaseIcon className="size-8 text-acorn-800" />
               <div className="">
-                <p className="text-white md:text-2xl font-bold pl-2">Business</p>
+                <p className="text-white md:text-2xl font-bold pl-2 mb-1">Business</p>
                 <p className="text-white/90 md:text-2xl pl-2">Bs in Business Admin</p>
               </div>
             </div>
             <div className="flex flex-row">
               <CodeBracketIcon className="size-8 text-acorn-800" />
               <div className="">
-                <p className="text-white md:text-2xl font-bold pl-2">Technology</p>
+                <p className="text-white md:text-2xl font-bold pl-2 mb-1">Technology</p>
                 <p className="text-white/90 md:text-2xl pl-2">Previous Front End Engineer</p>
               </div>
             </div>
@@ -169,7 +169,7 @@ export default function Home() {
             </div>
           </div>
           <div className="flex flex-col w-full">
-            <h3 className="text-xl md:text-3xl font-bold text-neutral-600">About me</h3>
+            <h3 className="text-xl md:text-3xl font-bold text-neutral-600 mb-3">About me</h3>
             <p className="md:text-2xl text-neutral-500 font-medium mb-4">I’m a curious designer who loves digging into how things work, and why people do what they do. My background spans front-end development, instructional design, and emerging tech, which gives me a well-rounded perspective on problem-solving. Outside of design, I’m into gaming and VR, smoked BBQ, fermentation projects, cycling, and experimenting in the kitchen.</p>
             <p className="md:text-2xl text-neutral-500 font-medium">I developed my portfolio using NextJS/React, Tailwind, and a little bit of vibe coding  using Cursor to round things out.</p>
           </div>
