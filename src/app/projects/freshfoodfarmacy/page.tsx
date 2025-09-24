@@ -116,8 +116,7 @@ export default function Page() {
                   <div>
                     <h2 className="text-l text-sky-500 font-bold">Prototypes</h2>
                     <p className="text-neutral-600 font-medium text-xl">
-                      We then created apps for both the administrators and patients. We reviewed and went through several iterations with the stakeholders, and we also showed patients the app for some user testing and impressions.eation of apps for administrators and patients, followed by iterations with stakeholders and user testing.
-                    </p>
+We then created apps for both the administrators and patients. We reviewed and went through several iterations with the stakeholders, and we also showed patients the app for some user testing and impressions.                    </p>
                   </div>
                   <div>
                     <h2 className="text-l text-sky-500 font-bold">Development & Iterations</h2>
