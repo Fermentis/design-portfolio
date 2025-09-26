@@ -23,7 +23,12 @@ export default function TopNavigation() {
                 </nav>
                 <Link
                     href="mailto:jeffrey.border@gmail.com"
-                    className="flex justify-center items-center rounded-full bg-acorn-500 px-2 md:px-6 py-3 text-sm font-bold text-white transition-colors hover:bg-acorn-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-acorn-500 active:bg-acorn-800 aria-disabled:cursor-not-allowed aria-disabled:opacity-50">
+                    className="relative flex justify-center items-center rounded-[100px] px-4 py-3 text-base font-bold text-white transition-all duration-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-acorn-500 active:opacity-80 aria-disabled:cursor-not-allowed aria-disabled:opacity-50"
+                    style={{
+                        border: '0.5px solid #4AC78D',
+                        background: 'linear-gradient(324deg, #4CCC91 14.72%, #3A9D6F 76.36%)',
+                        boxShadow: '0 4px 8px 0 rgba(65, 173, 123, 0.40)'
+                    }}>
                     Get in touch
                 </Link>
             </div>
